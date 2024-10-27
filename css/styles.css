@@ -756,9 +756,7 @@ fieldset {
 
 
 .modal-privacy-text {
-  display: flex;
-  
-  align-items: center;
+ 
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -772,9 +770,9 @@ fieldset {
 
 .check {
   display: inline-flex;
+  align-items: center;
   justify-content: center;
   margin-right: 8px;
-  gap: 8px;
   fill: transparent;
   width: 16px;
   height: 16px;
@@ -787,6 +785,7 @@ fieldset {
 
 .wrap-police {
   margin-bottom: 24px;
+
 }
 
 .modal-checkbox:checked + .modal-privacy-text .check {
@@ -796,7 +795,7 @@ fieldset {
 }
 
 .modal-privacy-link {
-  margin-left: 4px;
+  
   cursor: pointer;
   line-height: 1.33;
   text-decoration: underline;
