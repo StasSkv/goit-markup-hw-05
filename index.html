@@ -516,11 +516,9 @@
           </ul>
         </div>
 
-        <form class="foter-email-form">
+        <div class="footer-form-wrap">
           <p class="footer-email-text">Subscribe</p>
-          <label for="footer-email-to" class="footer-email-label"></label>
-
-          <div class="footer-input-plus-btn">
+          <form class="foter-email-form">
             <input
               id="footer-email-to"
               type="email"
@@ -535,24 +533,30 @@
                 <use href="./images/icons.svg#icon-plane"></use>
               </svg>
             </button>
-          </div>
-        </form>
+            <label
+              for="footer-email-to"
+              class="footer-email-label visually-hidden"
+            ></label>
+          </form>
+        </div>
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
-        <form  class="modal-form">
           <button type="button" class="modal-close-btn">
             <svg class="modal-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-]
+       
+       
+          
           <p class="modal-text">
             Leave your contacts and we will call you back
           </p>
-          <div class="modal-input-wrap">
+         
+             <form class="modal-form"></form>
             <label class="modal-label" for="modal-input-person">Name</label>
             <div class="modal-input-plus">
               <input
@@ -566,8 +570,8 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-          </div>
-          <div class="modal-input-wrap">
+         
+          
             <label class="modal-label" for="modal-input-phone">Phone</label>
             <div class="modal-input-plus">
               <input
@@ -581,8 +585,8 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-          </div>
-          <div class="modal-input-wrap">
+         
+          
             <label class="modal-label" for="modal-input-email">Email</label>
             <div class="modal-input-plus">
               <input
@@ -596,8 +600,8 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-          </div>
-          <div class="modal-input-wrap">
+      
+         
             <label class="modal-label" for="modal-area-text">Comment</label>
             <textarea
               name="text-area"
@@ -605,7 +609,7 @@
               class="modal-area"
               id="modal-area-text"
             ></textarea>
-          </div>
+          
 
           <div class="wrap-police">
             <input
